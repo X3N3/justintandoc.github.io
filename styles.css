@@ -1,0 +1,92 @@
+#navbar{
+  overflow:hidden;
+  position:fixed;
+  top:0;
+  z-index:1
+}
+
+body{
+  background-image:url(https://s-media-cache-ak0.pinimg.com/originals/c7/5d/e1/c75de1208bf12c355ad1ba4264787b18.jpg);
+  background-size:cover;
+  color:white;
+  position:relative;
+  font-family:Electrolize;
+}
+
+p{
+  font-size:12pt
+}
+
+span{
+  border-bottom:2px solid white
+}
+
+#brand-image{
+  height:100%;
+  margin-left:15px
+}
+
+#card{
+  margin-left:25px;
+  margin-right:25px;
+}
+
+.icon{
+  text-align: center;
+}
+
+.fa{
+  position: relative;
+  transition: all .05s ease-in-out;
+}
+
+.fa:hover{
+  color:white;
+  transform: scale(1.5);
+}
+
+h5{
+  margin-left:25px;
+  margin-right:25px;
+}
+
+#url-1:hover,#url-2:hover{
+  color:#0ff
+}
+
+.loader {
+  margin: auto;
+  border: 3px solid white;
+  width: 30px;
+  height: 30px;
+  border-top-color: #1abc9c;
+  border-bottom-color: #3498db;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0%{
+    transform: rotate(0deg) scale(1);
+    border-top-color: #1abc9c;
+    border-bottom-color: #1abc9c;
+  }
+  25% {
+    border-top-color: #2ecc71;
+    border-bottom-color: #2ecc71;
+  }
+  50% {
+    transform: rotate(360deg) scale(2);
+    border-top-color: #3498db;
+    border-bottom-color: #3498db;
+  }
+  75% {
+    border-top-color: #9b59b6;
+    border-bottom-color: #9b59b6;
+  }
+  100%{
+    transform: rotate(720deg) scale(1);
+    border-top-color: #1abc9c;
+    border-bottom-color: #1abc9c;
+  }
+}
